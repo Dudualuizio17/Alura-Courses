@@ -1,0 +1,75 @@
+   
+    header{
+        background:url(./Imagens-Produtos/barbearia-custom.jpg);
+        
+        
+    }
+
+    .principal {
+      background: url(./Imagens-Produtos/fundo-cinza-claro13-1024x640.jpg);
+        padding: 30px;
+        font-size: 20px;
+        
+    }
+
+    .titulo-principal{
+        padding-left: 20px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 50px;
+        box-sizing: border-box;
+        border: 2px #ffffff solid;
+        border-radius: 30px;
+        
+    }
+
+    .titulo-centralizado{
+    text-align: center;
+    font-size: 30px;
+    }
+
+
+
+    p{
+    text-align: center
+    }
+
+
+
+    .itens {
+    font-style: italic;
+    box-sizing: border-box;
+    border: 2px #fffbfb solid;
+    border-radius: 10px;
+    
+    }
+
+    
+
+    .beneficios {
+    background:url(./Imagens-Produtos/beneficios.jpg);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+     }
+
+
+    ul{
+        display: inline-block; vertical-align: top;
+        width: 20%;
+        margin: 0 auto;
+        padding: 0 0;
+    }
+    
+    footer{
+        text-align: center;
+        background: url(./Imagens-Produtos/bg.jpg);
+        padding: 40px 0;
+    }
+    
+    .Copyright{
+        color: #ffffff;
+        font-size: 13px;
+        margin: 20px 0 0;
+    }
