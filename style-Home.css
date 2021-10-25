@@ -1,7 +1,37 @@
    
     header{
         background:url(./Imagens-Produtos/barbearia-custom.jpg);
-        
+        width: 100%;
+    
+    }
+
+    .caixa {
+        width: 940px;
+        margin: 0 auto;
+        text-align: center;
+        line-height:1.5 ;
+        }
+    
+    nav{
+        position: absolute; top: 150px;  right: 0%;
+        }
+    
+    nav li {
+        display: inline;
+        margin:0 0 0 15px ;
+    }
+    
+    nav a {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+    
+    }
+    Nav a:hover{
+        color: rgb(155, 206, 248);
+        text-decoration: underline;
         
     }
 
@@ -9,6 +39,9 @@
       background: url(./Imagens-Produtos/fundo-cinza-claro13-1024x640.jpg);
         padding: 30px;
         font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        line-height:1.5;
+
         
     }
 
@@ -20,18 +53,25 @@
         box-sizing: border-box;
         border: 2px #ffffff solid;
         border-radius: 30px;
-        
+        font-family: 'Rampart One', cursive;
+
     }
 
     .titulo-centralizado{
     text-align: center;
-    font-size: 30px;
+    font-size: 2em;
+    margin:0 0 1em;
+    font-family: 'Playfair Display', serif;
+    
+
     }
 
 
 
     p{
-    text-align: center
+    
+    text-align: center;
+    font-family: 'Playfair Display', serif;
     }
 
 
@@ -41,16 +81,34 @@
     box-sizing: border-box;
     border: 2px #fffbfb solid;
     border-radius: 10px;
+    font-family: 'Playfair Display', serif;
     
     }
-
+.titulo-mapa {
     
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    
+}
+    .mapa {
+        background: url(./Imagens-Produtos/fundo-cinza-claro13-1024x640.jpg);
+        padding: 2em 0;
+        font-family: 'Playfair Display', serif;
+        
+    }
+
+    .mapa p {
+        margin: 1em 0 1em;
+        font-family: 'Playfair Display', serif;
+    }
 
     .beneficios {
-    background:url(./Imagens-Produtos/beneficios.jpg);
+    background:url(./Imagens-Produtos/beneficios.jpg) ;
     padding: 10px;
     color: rgb(255, 255, 255);
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
     
      }
 
@@ -65,7 +123,7 @@
     footer{
         text-align: center;
         background: url(./Imagens-Produtos/bg.jpg);
-        padding: 40px 0;
+        padding: 10px 0;
     }
     
     .Copyright{
