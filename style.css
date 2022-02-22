@@ -149,3 +149,14 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+.titulo-principal{
+    padding-left: 40px;
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    box-sizing: border-box;
+    border: 2px #ffffff solid;
+    border-radius: 30px;
+    font-family: 'Rampart One' cursive;
+}
